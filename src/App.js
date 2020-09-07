@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {LeftBar} from './LeftBar';
-import {TeamDisplay} from './components/TeamDisplay';
+import {TowerDisplay} from './components/TowerDisplay';
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router>
     <div className="App">
     <LeftBar/>
-    <Route path="/test/:name" component={TeamDisplay}/>
+    <Route path="/test/:name" component={TowerDisplay}/>
     </div>
     </Router>
   );

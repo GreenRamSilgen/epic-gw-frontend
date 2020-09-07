@@ -1,0 +1,39 @@
+
+.charInfo-container{
+    background: tan;
+    height: 3em;
+
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+.charLeft{
+    flex-grow: 1;
+    width: 100%;
+    background: lightblue;
+    height: inherit;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charImg img{
+    
+    height: inherit;
+    width: 3em;
+    object-fit: cover;
+}
+
+
+.charRight{
+}
+
+
+.stats{
+    
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr); /*!CHANGE BASED ON DATA*/
+}

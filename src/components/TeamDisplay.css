@@ -1,3 +1,29 @@
-a{
-    color: black;
+/*? TABLE HEADER CSS */
+.charInfo-containerHead{
+    background: black;
+    color: white;
+
+    height: 3em;
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 }
+.charLeftHead{
+    flex-grow: 1;
+    width: 100%;
+    height: inherit;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.charRightHead{
+
+}
+.statsHead{
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr); /*!CHANGE BASED ON DATA*/
+}
+

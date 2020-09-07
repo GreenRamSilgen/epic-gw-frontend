@@ -1,15 +1,52 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-import './TeamDisplay.css'
+import {CharDisplay} from './CharDisplay';
+import "./TeamDisplay.css";
 
-class TeamDisplay extends React.Component{
-    render(){
-        return(<div>
-            <Link to="/test2"><div>TEST</div></Link>
-            {this.props.match.params.name}
-        </div>)
-    }
+class TeamDisplay extends React.Component {
+  render() {
+    return (
+      <div className="team-container">
+              <div className="teamNum"> TEAM 1</div>
+        <div className="team-content">
+          <div className="charInfo-containerHead">
+            <div className="charLeftHead">
+              <div className="charName">HERO</div>
+            </div>
+            <div className="charRightHead">
+              <div className="statsHead">
+                <div>Attack:</div>
+                <div>Crit:</div>
+                <div>Speed:</div>
+              </div>
+            </div>
+          </div>
+          <CharDisplay />
+          <CharDisplay />
+          <CharDisplay />
+        </div>
+
+        <div className="teamNum"> TEAM 2</div>
+        <div className="team-content">
+          <div className="charInfo-containerHead">
+            <div className="charLeftHead">
+              <div className="charName">HERO</div>
+            </div>
+            <div className="charRightHead">
+              <div className="statsHead">
+                <div>Attack:</div>
+                <div>Crit:</div>
+                <div>Speed:</div>
+              </div>
+            </div>
+          </div>
+          <CharDisplay />
+          <CharDisplay />
+          <CharDisplay />
+        </div>
+      </div>
+    );
+  }
 }
-
-export {TeamDisplay};
+export { TeamDisplay };
