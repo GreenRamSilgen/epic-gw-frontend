@@ -2,3 +2,7 @@ a{
     color: black;
 }
 
+.mapDisplay{
+    width: 100vw;
+    overflow-x: scroll;
+}
