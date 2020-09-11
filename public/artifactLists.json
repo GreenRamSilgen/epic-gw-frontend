@@ -1,6 +1,10 @@
 {
   "artifactData": [
     {
+      "name": "NA",
+      "icon": "NA"
+    },
+    {
       "name": "A Little Queen's Huge Crown",
       "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0105.png"
     },

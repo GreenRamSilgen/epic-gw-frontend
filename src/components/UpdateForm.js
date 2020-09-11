@@ -6,32 +6,107 @@ class UpdateForm extends React.Component {
     super();
     
     this.state = {
-      artifacts: null
+      artifacts: null,
+      heros: null,
+      heroAndIcon: "NA,NA",
+      artifactAndIcon: "NA,NA",
+      health: "NA",
+      speed: "NA",
     }
+    
     fetch(`${process.env.PUBLIC_URL}/artifactLists.json`)
     .then((r)=> r.json())
     .then((data) =>{
       this.setState({
         artifacts: data.artifactData
       })
-      console.log(data.artifactData);
+      //console.log(data.artifactData);
     })
 
+    fetch(`${process.env.PUBLIC_URL}/heroLists.json`)
+    .then((r)=> r.json())
+    .then((data) =>{
+      this.setState({
+        heros: data.heroData
+      })
+      //console.log(data.heroData);
+    })  
+
+
+
+    this.handleHeroChange = this.handleHeroChange.bind(this);
+    this.handleArtifactChange = this.handleArtifactChange.bind(this);
+    this.handleHealthChange = this.handleHealthChange.bind(this);
+    this.handleSpeedChange = this.handleSpeedChange.bind(this);
+
+    this.submitForm = this.submitForm.bind(this);
+  }
+
+  submitForm(e){
+    e.preventDefault();
+    console.log(this.state.heroAndIcon);
+    console.log(this.state.artifactAndIcon);
+    console.log(this.state.health);
+    console.log(this.state.speed);
+  }
+
+  handleHeroChange(e){
+    this.setState({
+      heroAndIcon: e.target.value
+    })
+  }
+  handleArtifactChange(e){
+    this.setState({
+      artifactAndIcon: e.target.value
+    })
+  }
+  handleHealthChange(e){
+    this.setState({
+      health: e.target.value
+    })
+  }
+  handleSpeedChange(e){
+    this.setState({
+      speed: e.target.value
+    })
   }
 
   render() {
-    
     return (
       <div className="modal__background">
         <div className="modal__popup">
-          <form >
+        <div className="modal__head">
+        <div> </div>
+        <h3 className="modal__head--title">SET INFO</h3>
+        
+        <i className="fas fa-times" onClick={this.props.setUpdateFormOff}></i>
+        
+        </div>
+          <form onSubmit={this.submitForm}>
+          {/* HERO */}
+          <div className="form-group">
+              <label htmlFor="heroStat">Hero</label>
+              <select className="form-control" id="heroStat" name="heroStat" onChange={this.handleHeroChange}>
+              {
+              (this.state.heros) ? 
+              this.state.heros.map((heroObj) =>{
+                return( <option value={`${heroObj.name},${heroObj.icon}`}>
+                  {heroObj.name}
+                </option>)
+              })
+              : null  
+            }
+              </select>
+            </div>
+
+          {/* ARTIFACT*/}
             <div className="form-group">
               <label htmlFor="artifactStat">Artifact</label>
-              <select className="form-control" id="artifactStat" name="artifactStat">
+              <select className="form-control" id="artifactStat" name="artifactStat" onChange={this.handleArtifactChange}>
               {
               (this.state.artifacts) ? 
               this.state.artifacts.map((artifactObj) =>{
-                return( <option value={artifactObj.name}>
+                return( <option value={`${artifactObj.name},${artifactObj.icon}`}>
                   {artifactObj.name}
                 </option>)
               })
@@ -43,7 +118,8 @@ class UpdateForm extends React.Component {
                 {/* Health */}
             <div className="form-group">
               <label htmlFor="healthStat">Health</label>
-              <select className="form-control" id="healthStat" name="healthStat">
+              <select className="form-control" id="healthStat" name="healthStat" onChange={this.handleHealthChange}>
+                <option value="NA">NA</option>
                 <option value="xxx-8k">xxx-08k</option>
                 <option value="8k-9k">08k-09k</option>
                 <option value="9k-10k">09k-10k</option>
@@ -74,7 +150,8 @@ class UpdateForm extends React.Component {
               {/* Speed */}
             <div className="form-group">
               <label htmlFor="speedStat">SPEED</label>
-              <select className="form-control" id="speedStat" name="speedStat">
+              <select className="form-control" id="speedStat" name="speedStat" onChange={this.handleSpeedChange}>
+                <option value="NA">NA</option>
                 <option value="xxx-150">xxx-150</option>
                 <option value="150-160">150-160</option>
                 <option value="160-170">160-170</option>
@@ -92,7 +169,7 @@ class UpdateForm extends React.Component {
               </select>
             </div>
             
-            <button type="submit" className="btn btn-primary">Update!</button>
+            <button type="submit" className="btn btn-primary" >Update!</button>
 
           </form>
         </div>

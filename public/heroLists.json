@@ -1,0 +1,772 @@
+{
+  "heroData": [
+    {
+      "name": "NA",
+      "icon": "NA"
+    },
+    {
+      "name": "Alencia",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1100_s.png"
+    },
+    {
+      "name": "Ambitious Tywin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2042_s.png"
+    },
+    {
+      "name": "Apocalypse Ravi",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2019_s.png"
+    },
+    {
+      "name": "Aramintha",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1048_s.png"
+    },
+    {
+      "name": "Arbiter Vildred",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2007_s.png"
+    },
+    {
+      "name": "Baal & Sezan",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1015_s.png"
+    },
+    {
+      "name": "Baiken",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1093_s.png"
+    },
+    {
+      "name": "Basar",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1053_s.png"
+    },
+    {
+      "name": "Bellona",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1071_s.png"
+    },
+    {
+      "name": "Blood Moon Haste",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2039_s.png"
+    },
+    {
+      "name": "Briar Witch Iseria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2024_s.png"
+    },
+    {
+      "name": "Cecilia",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1002_s.png"
+    },
+    {
+      "name": "Celine",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1103_s.png"
+    },
+    {
+      "name": "Cerise",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1081_s.png"
+    },
+    {
+      "name": "Cermia",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1079_s.png"
+    },
+    {
+      "name": "Charles",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1027_s.png"
+    },
+    {
+      "name": "Charlotte",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1009_s.png"
+    },
+    {
+      "name": "Chloe",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1049_s.png"
+    },
+    {
+      "name": "Choux",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1101_s.png"
+    },
+    {
+      "name": "Dark Corvus",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2012_s.png"
+    },
+    {
+      "name": "Desert Jewel Basar",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2053_s.png"
+    },
+    {
+      "name": "Destina",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2022_s.png"
+    },
+    {
+      "name": "Diene",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1076_s.png"
+    },
+    {
+      "name": "Dizzy",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1094_s.png"
+    },
+    {
+      "name": "Elena",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1091_s.png"
+    },
+    {
+      "name": "Elphelt",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1105_s.png"
+    },
+    {
+      "name": "Faithless Lidica",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2046_s.png"
+    },
+    {
+      "name": "Fallen Cecilia",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2002_s.png"
+    },
+    {
+      "name": "Haste",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1039_s.png"
+    },
+    {
+      "name": "Holiday Yufine",
+      "icon": "https://assets.epicsevendb.com/_source/face/c5016_s.png"
+    },
+    {
+      "name": "Iseria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1024_s.png"
+    },
+    {
+      "name": "Judge Kise",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2006_s.png"
+    },
+    {
+      "name": "Kawerik",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1073_s.png"
+    },
+    {
+      "name": "Kayron",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1023_s.png"
+    },
+    {
+      "name": "Ken",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1047_s.png"
+    },
+    {
+      "name": "Kise",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1006_s.png"
+    },
+    {
+      "name": "Krau",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1070_s.png"
+    },
+    {
+      "name": "Last Rider Krau",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2070_s.png"
+    },
+    {
+      "name": "Lidica",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1046_s.png"
+    },
+    {
+      "name": "Lilias",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1089_s.png"
+    },
+    {
+      "name": "Lilibet",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1095_s.png"
+    },
+    {
+      "name": "Little Queen Charlotte",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2009_s.png"
+    },
+    {
+      "name": "Ludwig",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1069_s.png"
+    },
+    {
+      "name": "Luluca",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1082_s.png"
+    },
+    {
+      "name": "Luna",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1066_s.png"
+    },
+    {
+      "name": "Maid Chloe",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2049_s.png"
+    },
+    {
+      "name": "Martial Artist Ken",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2047_s.png"
+    },
+    {
+      "name": "Melissa",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1096_s.png"
+    },
+    {
+      "name": "Mui",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1044_s.png"
+    },
+    {
+      "name": "Pavel",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1080_s.png"
+    },
+    {
+      "name": "Ravi",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1019_s.png"
+    },
+    {
+      "name": "Ray",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1090_s.png"
+    },
+    {
+      "name": "Remnant Violet",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2074_s.png"
+    },
+    {
+      "name": "Roana",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1102_s.png"
+    },
+    {
+      "name": "Ruele of Light",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1022_s.png"
+    },
+    {
+      "name": "Sage Baal & Sezan",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2015_s.png"
+    },
+    {
+      "name": "Seaside Bellona",
+      "icon": "https://assets.epicsevendb.com/_source/face/c5071_s.png"
+    },
+    {
+      "name": "Sez",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1038_s.png"
+    },
+    {
+      "name": "Sigret",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1072_s.png"
+    },
+    {
+      "name": "Silver Blade Aramintha",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2048_s.png"
+    },
+    {
+      "name": "Sol",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1092_s.png"
+    },
+    {
+      "name": "Specimen Sez",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2038_s.png"
+    },
+    {
+      "name": "Specter Tenebria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2050_s.png"
+    },
+    {
+      "name": "MISSING_TRANSLATION_VALUE(chrn_c1034)",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1034_s.png"
+    },
+    {
+      "name": "Tamarinne",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1067_s.png"
+    },
+    {
+      "name": "Tenebria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1050_s.png"
+    },
+    {
+      "name": "Tywin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1042_s.png"
+    },
+    {
+      "name": "Vildred",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1007_s.png"
+    },
+    {
+      "name": "Violet",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1074_s.png"
+    },
+    {
+      "name": "Vivian",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1088_s.png"
+    },
+    {
+      "name": "Yufine",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1016_s.png"
+    },
+    {
+      "name": "Yuna",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1030_s.png"
+    },
+    {
+      "name": "Zeno",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1083_s.png"
+    },
+    {
+      "name": "Achates",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1017_s.png"
+    },
+    {
+      "name": "Angelica",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1062_s.png"
+    },
+    {
+      "name": "Armin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1008_s.png"
+    },
+    {
+      "name": "Assassin Cartuja",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2013_s.png"
+    },
+    {
+      "name": "Assassin Cidd",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2014_s.png"
+    },
+    {
+      "name": "Assassin Coli",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2033_s.png"
+    },
+    {
+      "name": "Auxiliary Lots",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2031_s.png"
+    },
+    {
+      "name": "Benevolent Romann",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2043_s.png"
+    },
+    {
+      "name": "Blaze Dingo",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2021_s.png"
+    },
+    {
+      "name": "Blood Blade Karin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2011_s.png"
+    },
+    {
+      "name": "Cartuja",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1013_s.png"
+    },
+    {
+      "name": "Celestial Mercedes",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2005_s.png"
+    },
+    {
+      "name": "Challenger Dominiel",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2037_s.png"
+    },
+    {
+      "name": "Champion Zerato",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2010_s.png"
+    },
+    {
+      "name": "Cidd",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1014_s.png"
+    },
+    {
+      "name": "Clarissa",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1028_s.png"
+    },
+    {
+      "name": "Coli",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1033_s.png"
+    },
+    {
+      "name": "Corvus",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1012_s.png"
+    },
+    {
+      "name": "Crescent Moon Rin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2054_s.png"
+    },
+    {
+      "name": "Crimson Armin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2008_s.png"
+    },
+    {
+      "name": "Crozet",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1036_s.png"
+    },
+    {
+      "name": "Dingo",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1021_s.png"
+    },
+    {
+      "name": "Dominiel",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1037_s.png"
+    },
+    {
+      "name": "Fighter Maya",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2032_s.png"
+    },
+    {
+      "name": "Free Spirit Tieria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3026_s.png"
+    },
+    {
+      "name": "Furious",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1087_s.png"
+    },
+    {
+      "name": "General Purrgis",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2035_s.png"
+    },
+    {
+      "name": "Guider Aither",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2018_s.png"
+    },
+    {
+      "name": "Karin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1011_s.png"
+    },
+    {
+      "name": "Khawana",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1086_s.png"
+    },
+    {
+      "name": "Khawazu",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1085_s.png"
+    },
+    {
+      "name": "Kitty Clarissa",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2028_s.png"
+    },
+    {
+      "name": "Kizuna AI",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1107_s.png"
+    },
+    {
+      "name": "Leo",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1029_s.png"
+    },
+    {
+      "name": "Lots",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1031_s.png"
+    },
+    {
+      "name": "Maya",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1032_s.png"
+    },
+    {
+      "name": "Mercedes",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1005_s.png"
+    },
+    {
+      "name": "Purrgis",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1035_s.png"
+    },
+    {
+      "name": "Rin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1054_s.png"
+    },
+    {
+      "name": "Roaming Warrior Leo",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2029_s.png"
+    },
+    {
+      "name": "Romann",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1043_s.png"
+    },
+    {
+      "name": "Rose",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1003_s.png"
+    },
+    {
+      "name": "Schuri",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1020_s.png"
+    },
+    {
+      "name": "Serila",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1040_s.png"
+    },
+    {
+      "name": "Shadow Rose",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2003_s.png"
+    },
+    {
+      "name": "Shooting Star Achates",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2017_s.png"
+    },
+    {
+      "name": "Silk",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1004_s.png"
+    },
+    {
+      "name": "Sinful Angelica",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2062_s.png"
+    },
+    {
+      "name": "Surin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1065_s.png"
+    },
+    {
+      "name": "Tempest Surin",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2065_s.png"
+    },
+    {
+      "name": "Troublemaker Crozet",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2036_s.png"
+    },
+    {
+      "name": "Wanderer Silk",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2004_s.png"
+    },
+    {
+      "name": "Watcher Schuri",
+      "icon": "https://assets.epicsevendb.com/_source/face/c2020_s.png"
+    },
+    {
+      "name": "Zerato",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1010_s.png"
+    },
+    {
+      "name": "Adlay",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3043_s.png"
+    },
+    {
+      "name": "Adventurer Ras",
+      "icon": "https://assets.epicsevendb.com/_source/face/c5001_s.png"
+    },
+    {
+      "name": "Ains",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3093_s.png"
+    },
+    {
+      "name": "Aither",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1018_s.png"
+    },
+    {
+      "name": "Alexa",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3012_s.png"
+    },
+    {
+      "name": "All-Rounder Wanda",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4065_s.png"
+    },
+    {
+      "name": "Angelic Montmorancy",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4042_s.png"
+    },
+    {
+      "name": "Arowell",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3004_s.png"
+    },
+    {
+      "name": "Azalea",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3031_s.png"
+    },
+    {
+      "name": "Bask",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3006_s.png"
+    },
+    {
+      "name": "Batisse",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3095_s.png"
+    },
+    {
+      "name": "Butcher Corps Inquisitor",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3001_s.png"
+    },
+    {
+      "name": "Captain Rikoris",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4034_s.png"
+    },
+    {
+      "name": "Carmainerose",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3071_s.png"
+    },
+    {
+      "name": "Carrot",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3051_s.png"
+    },
+    {
+      "name": "Celeste",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3064_s.png"
+    },
+    {
+      "name": "Chaos Inquisitor",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4001_s.png"
+    },
+    {
+      "name": "Chaos Sect Axe",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4025_s.png"
+    },
+    {
+      "name": "Church of Ilryos Axe",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3025_s.png"
+    },
+    {
+      "name": "Commander Lorina",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4035_s.png"
+    },
+    {
+      "name": "Doll Maker Pearlhorizon",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4073_s.png"
+    },
+    {
+      "name": "Doris",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3044_s.png"
+    },
+    {
+      "name": "Eaton",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3094_s.png"
+    },
+    {
+      "name": "Elson",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3054_s.png"
+    },
+    {
+      "name": "Enott",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3022_s.png"
+    },
+    {
+      "name": "Falconer Kluri",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4003_s.png"
+    },
+    {
+      "name": "Gloomyrain",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3074_s.png"
+    },
+    {
+      "name": "Gunther",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3024_s.png"
+    },
+    {
+      "name": "Hataan",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3091_s.png"
+    },
+    {
+      "name": "Hazel",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3041_s.png"
+    },
+    {
+      "name": "Helga",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3023_s.png"
+    },
+    {
+      "name": "Hurado",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3055_s.png"
+    },
+    {
+      "name": "Jecht",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3053_s.png"
+    },
+    {
+      "name": "Jena",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3052_s.png"
+    },
+    {
+      "name": "Judith",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3011_s.png"
+    },
+    {
+      "name": "Kikirat v2",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3084_s.png"
+    },
+    {
+      "name": "Kiris",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3063_s.png"
+    },
+    {
+      "name": "Kluri",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3003_s.png"
+    },
+    {
+      "name": "Lena",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3092_s.png"
+    },
+    {
+      "name": "Lorina",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3035_s.png"
+    },
+    {
+      "name": "Mascot Hazel",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4041_s.png"
+    },
+    {
+      "name": "Mercenary Helga",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4023_s.png"
+    },
+    {
+      "name": "Mirsa",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3014_s.png"
+    },
+    {
+      "name": "Mistychain",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3072_s.png"
+    },
+    {
+      "name": "Montmorancy",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3042_s.png"
+    },
+    {
+      "name": "Muchacha",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3033_s.png"
+    },
+    {
+      "name": "Nemunas",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3061_s.png"
+    },
+    {
+      "name": "Otillie",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3045_s.png"
+    },
+    {
+      "name": "Pearlhorizon",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3073_s.png"
+    },
+    {
+      "name": "Pyllis",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3005_s.png"
+    },
+    {
+      "name": "Ras",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1001_s.png"
+    },
+    {
+      "name": "Requiemroar",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3075_s.png"
+    },
+    {
+      "name": "Researcher Carrot",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4051_s.png"
+    },
+    {
+      "name": "Righteous Thief Roozid",
+      "icon": "https://assets.epicsevendb.com/_source/face/c4013_s.png"
+    },
+    {
+      "name": "Rikoris",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3034_s.png"
+    },
+    {
+      "name": "Rima",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3062_s.png"
+    },
+    {
+      "name": "Roozid",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3013_s.png"
+    },
+    {
+      "name": "Sven",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3015_s.png"
+    },
+    {
+      "name": "Taranor Guard",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3032_s.png"
+    },
+    {
+      "name": "Taranor Royal Guard",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3002_s.png"
+    },
+    {
+      "name": "Tieria",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3021_s.png"
+    },
+    {
+      "name": "Wanda",
+      "icon": "https://assets.epicsevendb.com/_source/face/c3065_s.png"
+    },
+    {
+      "name": "MISSING_TRANSLATION_VALUE(chrn_c1026)",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1026_s.png"
+    },
+    {
+      "name": "MISSING_TRANSLATION_VALUE(chrn_c1025)",
+      "icon": "https://assets.epicsevendb.com/_source/face/c1025_s.png"
+    }
+  ]
+}

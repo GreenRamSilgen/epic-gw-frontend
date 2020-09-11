@@ -6,10 +6,31 @@ import { UpdateForm } from "./UpdateForm";
 import "./TeamDisplay.css";
 
 class TeamDisplay extends React.Component {
+  constructor(props){
+    super(props);
+    
+    this.state={
+      showUpdateForm: false,
+    }
+
+    this.setUpdateFormOn = this.setUpdateFormOn.bind(this);
+    this.setUpdateFormOff = this.setUpdateFormOff.bind(this);
+  }
+
+  setUpdateFormOn(){
+    this.setState({
+      showUpdateForm: true
+    })
+  }
+  setUpdateFormOff(){
+    this.setState({
+      showUpdateForm: false
+    })
+  }
   render() {
     return (
       <div>
-        <UpdateForm/>
+        {(this.state.showUpdateForm) ? <UpdateForm setUpdateFormOff={this.setUpdateFormOff}/> : null}
         <div className="team-container">
           <div className="team-name-options">
             <div className="teamNum">
@@ -29,9 +50,9 @@ class TeamDisplay extends React.Component {
                 </div>
               </div>
             </div>
-            <CharDisplay />
-            <CharDisplay />
-            <CharDisplay />
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
           </div>
 
           <div className="team-name-options">
@@ -52,9 +73,9 @@ class TeamDisplay extends React.Component {
                 </div>
               </div>
             </div>
-            <CharDisplay />
-            <CharDisplay />
-            <CharDisplay />
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay setUpdateFormOn={this.setUpdateFormOn}/>
           </div>
         </div>
       </div>

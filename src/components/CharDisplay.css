@@ -37,3 +37,10 @@
 
     grid-template-columns: repeat(4,1fr); /*!CHANGE BASED ON DATA*/
 }
+
+
+.flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -16,4 +16,20 @@
 
     margin-top: 2em;
     padding: 1em;
+
+    box-shadow: 0 0 17px rgb(50,50,50);
+}
+
+.modal__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__head--title{
+    flex-grow: auto;
+    margin-left: 1em;
+}
+
+.fa-times{
+    cursor: pointer;
 }

@@ -19,15 +19,15 @@ class CharDisplay extends React.Component{
           </div>
           <div className="charRight">
             <div className="stats">
-              <div>
+              <div className="flexCenter">
                 <div>Arti IMG?</div>
                 <div>Arti Name?</div>
               </div>
-              <div>Health</div>
-              <div>Speed</div>
+              <div className="flexCenter">Health</div>
+              <div className="flexCenter">Speed</div>
               
-            <div>
-              <button className="btn btn-success">Update</button>
+            <div className="flexCenter">
+              <button className="btn btn-success" onClick={this.props.setUpdateFormOn}>Update</button>
             </div>
             </div>
           </div>
