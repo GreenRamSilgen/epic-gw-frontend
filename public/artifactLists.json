@@ -1,0 +1,584 @@
+{
+  "artifactData": [
+    {
+      "name": "A Little Queen's Huge Crown",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0105.png"
+    },
+    {
+      "name": "Abyssal Crown",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_5.png"
+    },
+    {
+      "name": "Alabastron",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0089.png"
+    },
+    {
+      "name": "Alencinox's Wrath",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0082.png"
+    },
+    {
+      "name": "Alexa's Basket",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0036.png"
+    },
+    {
+      "name": "Bastion of Perlutia",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0067.png"
+    },
+    {
+      "name": "Black Hand of the Goddess",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0088.png"
+    },
+    {
+      "name": "Blood-Seared Moon",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_13.png"
+    },
+    {
+      "name": "Bloodstone",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_17.png"
+    },
+    {
+      "name": "Bloody Rose",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0069.png"
+    },
+    {
+      "name": "Border Coin",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0044.png"
+    },
+    {
+      "name": "Celestine",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0032.png"
+    },
+    {
+      "name": "Champion's Trophy",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0098.png"
+    },
+    {
+      "name": "Chatty",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0029.png"
+    },
+    {
+      "name": "Circus Fantasia",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0100.png"
+    },
+    {
+      "name": "Cradle of Life",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0093.png"
+    },
+    {
+      "name": "Creation & Destruction",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0058.png"
+    },
+    {
+      "name": "Crown of Glory",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0103.png"
+    },
+    {
+      "name": "Cruel Mischief",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_16.png"
+    },
+    {
+      "name": "Dignus Orb",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0061.png"
+    },
+    {
+      "name": "Doctor's Bag",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0094.png"
+    },
+    {
+      "name": "Draco Plate",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0070.png"
+    },
+    {
+      "name": "Durandal",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0002.png"
+    },
+    {
+      "name": "Dux Noctis",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0084.png"
+    },
+    {
+      "name": "Elbris Ritual Sword",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_1.png"
+    },
+    {
+      "name": "Etica's Scepter",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_9.png"
+    },
+    {
+      "name": "Guiding Light",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0086.png"
+    },
+    {
+      "name": "Holy Sacrifice",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_9.png"
+    },
+    {
+      "name": "Idol's Cheer",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0039.png"
+    },
+    {
+      "name": "Iron Fan",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0038.png"
+    },
+    {
+      "name": "Junkyard Dog",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0052.png"
+    },
+    {
+      "name": "Justice for All",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0043.png"
+    },
+    {
+      "name": "Manifu",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_16.png"
+    },
+    {
+      "name": "Merciless Glutton",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0083.png"
+    },
+    {
+      "name": "Ms. Confille",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0090.png"
+    },
+    {
+      "name": "Cruel Mischief",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_8.png"
+    },
+    {
+      "name": "Necro & Undine",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0047.png"
+    },
+    {
+      "name": "Noble Oath",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0033.png"
+    },
+    {
+      "name": "Otherworldly Machinery",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0028.png"
+    },
+    {
+      "name": "Proof of Valor",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0051.png"
+    },
+    {
+      "name": "Reingar's Special Drink",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0062.png"
+    },
+    {
+      "name": "Rhianna & Luciella",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_11.png"
+    },
+    {
+      "name": "Rise of a Monarch",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0102.png"
+    },
+    {
+      "name": "Rod of Amaryllis",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0001.png"
+    },
+    {
+      "name": "Secret Art - Storm Sword",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0096.png"
+    },
+    {
+      "name": "Shepherd of the Hollow",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0109.png"
+    },
+    {
+      "name": "Shimadra Staff",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_4.png"
+    },
+    {
+      "name": "Sigurd Scythe",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_21.png"
+    },
+    {
+      "name": "Snow Crystal",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0101.png"
+    },
+    {
+      "name": "Song of Stars",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_2.png"
+    },
+    {
+      "name": "Spirit's Breath",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0049.png"
+    },
+    {
+      "name": "Star Piercer",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_10.png"
+    },
+    {
+      "name": "Stella Harpa",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0078.png"
+    },
+    {
+      "name": "Sword of Ezera",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0046.png"
+    },
+    {
+      "name": "Sword of Holy Light",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0002.png"
+    },
+    {
+      "name": "Sword of Judgment",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0041.png"
+    },
+    {
+      "name": "Time Matter",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0027.png"
+    },
+    {
+      "name": "Torn Sleeve",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0050.png"
+    },
+    {
+      "name": "Touch of Rekos",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0091.png"
+    },
+    {
+      "name": "Uberius's Tooth",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0030.png"
+    },
+    {
+      "name": "Unfading Memories",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0079.png"
+    },
+    {
+      "name": "Violet Talisman",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0040.png"
+    },
+    {
+      "name": "Wind Rider",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_1.png"
+    },
+    {
+      "name": "Adamant Shield",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_3.png"
+    },
+    {
+      "name": "Ambrote",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0034.png"
+    },
+    {
+      "name": "Andre's Crossbow",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0076.png"
+    },
+    {
+      "name": "Aurius",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_6.png"
+    },
+    {
+      "name": "Barthez's Orbuculum",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0066.png"
+    },
+    {
+      "name": "Bloody Warhammer",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_7.png"
+    },
+    {
+      "name": "Card of Small Miracles",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0035.png"
+    },
+    {
+      "name": "Celestial Spear",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0003.png"
+    },
+    {
+      "name": "Crimson Seed",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0059.png"
+    },
+    {
+      "name": "Dust Devil",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_7.png"
+    },
+    {
+      "name": "El's Fist",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_20.png"
+    },
+    {
+      "name": "Elyha's Knife",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_12.png"
+    },
+    {
+      "name": "Eternus",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0055.png"
+    },
+    {
+      "name": "Flower Shower",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0097.png"
+    },
+    {
+      "name": "Golden Cocoa Cookie",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0085.png"
+    },
+    {
+      "name": "To a New World",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_15.png"
+    },
+    {
+      "name": "Hell Cutter",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_4.png"
+    },
+    {
+      "name": "Hellfire Demonblade",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_14.png"
+    },
+    {
+      "name": "Hilag Lance",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_5.png"
+    },
+    {
+      "name": "Iela Violin",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_3.png"
+    },
+    {
+      "name": "Infinity Basket",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_16.png"
+    },
+    {
+      "name": "Kal'adra",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0004.png"
+    },
+    {
+      "name": "Love Potion",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0042.png"
+    },
+    {
+      "name": "Magaraha's Tome",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_18.png"
+    },
+    {
+      "name": "Midnight Bloom",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0065.png"
+    },
+    {
+      "name": "Moonlight Dreamblade",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_12.png"
+    },
+    {
+      "name": "New Year Cookies",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0081.png"
+    },
+    {
+      "name": "One Year of Gratitude",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0064.png"
+    },
+    {
+      "name": "Portrait of the Saviors",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0048.png"
+    },
+    {
+      "name": "Radiant Forever",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0045.png"
+    },
+    {
+      "name": "Rainbow Scale",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0063.png"
+    },
+    {
+      "name": "Rosa Hargana",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_14.png"
+    },
+    {
+      "name": "Santa Muerte",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0031.png"
+    },
+    {
+      "name": "Sashe Ithanes",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_6.png"
+    },
+    {
+      "name": "Sepulcrum",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0054.png"
+    },
+    {
+      "name": "Shepherds of Chaos",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0060.png"
+    },
+    {
+      "name": "Silver Rain",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0056.png"
+    },
+    {
+      "name": "Sira-Ren",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_15.png"
+    },
+    {
+      "name": "Spooky Solayu Stories",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0068.png"
+    },
+    {
+      "name": "Steadfast Gatekeeper",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0073.png"
+    },
+    {
+      "name": "Strak Gauntlet",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_2.png"
+    },
+    {
+      "name": "Succubus Mirror",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0005.png"
+    },
+    {
+      "name": "Tagehel's Ancient Book",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art5_19.png"
+    },
+    {
+      "name": "Tear of the Desert",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0053.png"
+    },
+    {
+      "name": "To a New World",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0110.png"
+    },
+    {
+      "name": "Water's Origin",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_8.png"
+    },
+    {
+      "name": "Wondrous Potion Vial",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art4_13.png"
+    },
+    {
+      "name": "Alsacian Spear",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_7.png"
+    },
+    {
+      "name": "Ancient Sheath",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_4.png"
+    },
+    {
+      "name": "Aqua Rose",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_14.png"
+    },
+    {
+      "name": "Ascending Axe",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_15.png"
+    },
+    {
+      "name": "Atma's Portal",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_6.png"
+    },
+    {
+      "name": "Butterfly Mandolin",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_18.png"
+    },
+    {
+      "name": "Cursed Compass",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_9.png"
+    },
+    {
+      "name": "Daydream Joker",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_17.png"
+    },
+    {
+      "name": "Devil's Brand",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_12.png"
+    },
+    {
+      "name": "Egg of Delusion",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_2.png"
+    },
+    {
+      "name": "Envoy's Pipe",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_19.png"
+    },
+    {
+      "name": "Exorcist's Tonfa",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_16.png"
+    },
+    {
+      "name": "Forest Totem",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_21.png"
+    },
+    {
+      "name": "Goblin's Lamp",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_13.png"
+    },
+    {
+      "name": "Grail of Blood",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_1.png"
+    },
+    {
+      "name": "Labyrinth Cube",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_8.png"
+    },
+    {
+      "name": "Mighty Yaksha",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_11.png"
+    },
+    {
+      "name": "Oath Key",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_22.png"
+    },
+    {
+      "name": "Prophetic Candlestick",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_3.png"
+    },
+    {
+      "name": "Ranon's Memorandum",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0026.png"
+    },
+    {
+      "name": "Ruby Essence",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_23.png"
+    },
+    {
+      "name": "Sword of the Morning",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_10.png"
+    },
+    {
+      "name": "Timeless Anchor",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art3_20.png"
+    },
+    {
+      "name": "Bloodbead Dagger",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0017.png"
+    },
+    {
+      "name": "Deadly Sword",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0013.png"
+    },
+    {
+      "name": "Elf's Bow",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0014.png"
+    },
+    {
+      "name": "Fairy's Grimoire",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0016.png"
+    },
+    {
+      "name": "Firm Shield",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0018.png"
+    },
+    {
+      "name": "Staff of Wisdom",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0015.png"
+    },
+    {
+      "name": "Biting Wind Star",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0010.png"
+    },
+    {
+      "name": "Demon's Pistol",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0008.png"
+    },
+    {
+      "name": "Dream Scroll",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0009.png"
+    },
+    {
+      "name": "Enhanced Gauntlet",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0012.png"
+    },
+    {
+      "name": "Sword of the Sun",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0007.png"
+    },
+    {
+      "name": "Venus Orb",
+      "icon": "https://assets.epicsevendb.com/_source/item_arti/icon_art0011.png"
+    }
+  ]
+}

@@ -19,9 +19,16 @@ class CharDisplay extends React.Component{
           </div>
           <div className="charRight">
             <div className="stats">
-              <div>Attack:</div>
-              <div>Crit</div>
+              <div>
+                <div>Arti IMG?</div>
+                <div>Arti Name?</div>
+              </div>
+              <div>Health</div>
               <div>Speed</div>
+              
+            <div>
+              <button className="btn btn-success">Update</button>
+            </div>
             </div>
           </div>
         </div>
