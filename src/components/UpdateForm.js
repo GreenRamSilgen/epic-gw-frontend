@@ -86,43 +86,50 @@ class UpdateForm extends React.Component {
           {/* HERO */}
           <div className="form-group">
               <label htmlFor="heroStat">Hero</label>
-              <select className="form-control" id="heroStat" name="heroStat" onChange={this.handleHeroChange}>
+              {/*!!PREVIOUS HERE */}
+              <input list="herosList" className="form-control" id="heroStat" name="heroStat" onChange={this.handleHeroChange}></input>
+              <datalist id="herosList" name="herosList">
               {
               (this.state.heros) ? 
               this.state.heros.map((heroObj) =>{
-                return( <option value={`${heroObj.name},${heroObj.icon}`}>
+                return( <option value={`${heroObj.name}`}>
                   {heroObj.name}
                 </option>)
               })
               : null  
             }
-              </select>
+            </datalist>
+              {/*!!PREVIOUS HERE */}
             </div>
 
           {/* ARTIFACT*/}
             <div className="form-group">
               <label htmlFor="artifactStat">Artifact</label>
-              <select className="form-control" id="artifactStat" name="artifactStat" onChange={this.handleArtifactChange}>
+              {/*!!PREVIOUS HERE */}
+              <input list="artifactList" className="form-control" id="artifactStat" name="artifactStat" onChange={this.handleArtifactChange}></input>
+              <datalist id="artifactList" name="artifactList">
               {
               (this.state.artifacts) ? 
               this.state.artifacts.map((artifactObj) =>{
-                return( <option value={`${artifactObj.name},${artifactObj.icon}`}>
+                return( <option value={`${artifactObj.name}`}>
                   {artifactObj.name}
                 </option>)
               })
               : null  
             }
-              </select>
+            </datalist>
+              {/*!!PREVIOUS HERE */}
             </div>
 
                 {/* Health */}
             <div className="form-group">
               <label htmlFor="healthStat">Health</label>
-              <select className="form-control" id="healthStat" name="healthStat" onChange={this.handleHealthChange}>
+              <input list="hpList" className="form-control" id="healthStat" name="healthStat" onChange={this.handleHealthChange}></input>
+                <datalist id="hpList" name="hpList">
                 <option value="NA">NA</option>
-                <option value="xxx-8k">xxx-08k</option>
-                <option value="8k-9k">08k-09k</option>
-                <option value="9k-10k">09k-10k</option>
+                <option value="xxx-08k">xxx-08k</option>
+                <option value="08k-09k">08k-09k</option>
+                <option value="09k-10k">09k-10k</option>
                 <option value="10k-11k">10k-11k</option>
                 <option value="11k-12k">11k-12k</option>
                 <option value="12k-13k">12k-13k</option>
@@ -144,13 +151,14 @@ class UpdateForm extends React.Component {
                 <option value="28k-29k">28k-29k</option>
                 <option value="29k-30k">29k-30k</option>
                 <option value="30k-xxx">30k-xxx</option>
-              </select>
+                </datalist>
             </div>
 
               {/* Speed */}
             <div className="form-group">
               <label htmlFor="speedStat">SPEED</label>
-              <select className="form-control" id="speedStat" name="speedStat" onChange={this.handleSpeedChange}>
+              <input list="speedList" className="form-control" id="speedStat" name="speedStat" onChange={this.handleSpeedChange}></input>
+              <datalist id="speedList" name="speedList">
                 <option value="NA">NA</option>
                 <option value="xxx-150">xxx-150</option>
                 <option value="150-160">150-160</option>
@@ -166,7 +174,7 @@ class UpdateForm extends React.Component {
                 <option value="250-260">250-260</option>
                 <option value="260-270">260-270</option>
                 <option value="270-xxx">270-xxx</option>
-              </select>
+                </datalist>
             </div>
             
             <button type="submit" className="btn btn-primary" >Update!</button>
@@ -179,3 +187,22 @@ class UpdateForm extends React.Component {
 }
 
 export {UpdateForm}
+
+
+/**
+ * !PREVIOUS
+ * !Change current's input to select and have it cover the options.
+ * !remove the datalist tags              
+ * <select className="form-control" id="heroStat" name="heroStat" onChange={this.handleHeroChange}>
+              {
+              (this.state.heros) ? 
+              this.state.heros.map((heroObj) =>{
+                return( <option value={`${heroObj.name},${heroObj.icon}`}>
+                  {heroObj.name}
+                </option>)
+              })
+              : null  
+            }
+              </select>
+ */
+
