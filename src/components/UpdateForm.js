@@ -44,10 +44,19 @@ class UpdateForm extends React.Component {
 
   submitForm(e){
     e.preventDefault();
+    console.log(this.props.heroObjId);
     console.log(this.state.heroAndIcon);
     console.log(this.state.artifactAndIcon);
     console.log(this.state.health);
     console.log(this.state.speed);
+    console.log(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.heroAndIcon}/${this.state.heroAndIcon}/${this.state.artifactAndIcon}/${this.state.artifactAndIcon}/${this.state.health}/${this.state.speed}`);
+    fetch(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.heroAndIcon}/${this.state.heroAndIcon}/${this.state.artifactAndIcon}/${this.state.artifactAndIcon}/${this.state.health}/${this.state.speed}`, {method:"POST"})
+    .then(res =>{
+      this.props.reFetch();
+      this.props.setUpdateFormOff();
+    });
+
+
   }
 
   handleHeroChange(e){

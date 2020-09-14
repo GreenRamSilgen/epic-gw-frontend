@@ -10,6 +10,7 @@ class TeamDisplay extends React.Component {
     super(props);
     
     this.state={
+      heroId: null,
       loading: true,
       showUpdateForm: false,
       heroDatas: null,
@@ -17,8 +18,8 @@ class TeamDisplay extends React.Component {
 
     this.setUpdateFormOn = this.setUpdateFormOn.bind(this);
     this.setUpdateFormOff = this.setUpdateFormOff.bind(this);
-
-
+    this.updateHeroId = this.updateHeroId.bind(this);
+    this.reFetch = this.reFetch.bind(this);
     //this.props.match.params.name
 
     
@@ -36,7 +37,7 @@ class TeamDisplay extends React.Component {
   }
 
   async componentDidMount(){
-    const url = 'http://localhost:3001/leftTowerDisplay/tower1';
+    const url = `https://morning-earth-08207.herokuapp.com/${this.props.match.params.name}/${this.props.match.params.towerNum}`;
     //`/${this.props.match.params.name}/${this.props.match.params.towerNum}`
     const response = await fetch(url);
     const data = await response.json();
@@ -53,15 +54,33 @@ class TeamDisplay extends React.Component {
      // console.log(e);
     //});
   }
+
+  async reFetch(){
+    const url = `https://morning-earth-08207.herokuapp.com/${this.props.match.params.name}/${this.props.match.params.towerNum}`;
+    //`/${this.props.match.params.name}/${this.props.match.params.towerNum}`
+    const response = await fetch(url);
+    const data = await response.json();
+
+    this.setState({
+      loading: false,
+      heroDatas: data
+    })
+  }
+
+  updateHeroId(id){
+    this.setState({
+      heroId: id,
+    })
+  }
   render() {
     console.log(this.state.heroDatas);
     return (
       <div>
-        {(this.state.showUpdateForm) ? <UpdateForm setUpdateFormOff={this.setUpdateFormOff}/> : null}
+        {(this.state.showUpdateForm) ? <UpdateForm reFetch={this.reFetch} heroObjId={this.state.heroId} setUpdateFormOff={this.setUpdateFormOff}/> : null}
         {this.state.loading || !this.state.heroDatas ? (
           <div> loading...</div>
         ) :  (
-        <div> {this.state.heroDatas[0].name}</div>
+        <div> {null}</div>
         )}
         <div className="team-container">
           <div className="team-name-options">
@@ -82,9 +101,9 @@ class TeamDisplay extends React.Component {
                 </div>
               </div>
             </div>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[0] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[1] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[2] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[0] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[1] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[2] : null } setUpdateFormOn={this.setUpdateFormOn}/>
           </div>
 
           <div className="team-name-options">
@@ -105,9 +124,9 @@ class TeamDisplay extends React.Component {
                 </div>
               </div>
             </div>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[3] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[4] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[5] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[3] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[4] : null } setUpdateFormOn={this.setUpdateFormOn}/>
+            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[5] : null } setUpdateFormOn={this.setUpdateFormOn}/>
           </div>
         </div>
       </div>

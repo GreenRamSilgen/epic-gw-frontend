@@ -4,6 +4,14 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import "./CharDisplay.css";
 
 class CharDisplay extends React.Component{
+  constructor(props){
+    super(props);
+    this.updateClicked = this.updateClicked.bind(this);
+  }
+  updateClicked(){
+    this.props.setUpdateFormOn();
+    this.props.updateHeroId(this.props.heroData._id);
+  }
     render(){
         return(
             
@@ -15,19 +23,19 @@ class CharDisplay extends React.Component{
                 alt="temp-circle"
               ></img>
             </div>
-            <div className="charName">TYWIN</div>
+            <div className="charName">{(this.props.heroData === null)? "NA" : this.props.heroData.name}</div>
           </div>
           <div className="charRight">
             <div className="stats">
               <div className="flexCenter">
-                <div>Arti IMG?</div>
-                <div>Arti Name?</div>
+                <div>{(this.props.heroData === null)? "NA" : this.props.heroData.artifactIcon}</div>
+                <div>{(this.props.heroData === null)? "NA" : this.props.heroData.artifact}</div>
               </div>
-              <div className="flexCenter">Health</div>
-              <div className="flexCenter">Speed</div>
+              <div className="flexCenter">{(this.props.heroData === null)? "NA" : this.props.heroData.health}</div>
+              <div className="flexCenter">{(this.props.heroData === null)? "NA" : this.props.heroData.speed}</div>
               
             <div className="flexCenter">
-              <button className="btn btn-success" onClick={this.props.setUpdateFormOn}>Update</button>
+              <button className="btn btn-success" onClick={this.updateClicked}>Update</button>
             </div>
             </div>
           </div>
