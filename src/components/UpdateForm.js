@@ -8,8 +8,8 @@ class UpdateForm extends React.Component {
     this.state = {
       artifacts: null,
       heros: null,
-      heroAndIcon: "NA,NA",
-      artifactAndIcon: "NA,NA",
+      hero: "NA",
+      artifact: "NA",
       health: "NA",
       speed: "NA",
     }
@@ -44,13 +44,22 @@ class UpdateForm extends React.Component {
 
   submitForm(e){
     e.preventDefault();
-    console.log(this.props.heroObjId);
-    console.log(this.state.heroAndIcon);
-    console.log(this.state.artifactAndIcon);
-    console.log(this.state.health);
-    console.log(this.state.speed);
-    console.log(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.heroAndIcon}/${this.state.heroAndIcon}/${this.state.artifactAndIcon}/${this.state.artifactAndIcon}/${this.state.health}/${this.state.speed}`);
-    fetch(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.heroAndIcon}/${this.state.heroAndIcon}/${this.state.artifactAndIcon}/${this.state.artifactAndIcon}/${this.state.health}/${this.state.speed}`, {method:"POST"})
+    
+    console.log(this.state.artifacts.length);
+    let icon, artifactIcon;
+    for(let i = 0 ; i < this.state.artifacts.length; i++){
+      if(this.state.artifacts[i].name === this.state.artifact){
+        artifactIcon = this.state.artifacts[i].icon;
+      }
+    }
+
+    for(let k = 0; k < this.state.heros.length; k++){
+      if(this.state.heros[k].name === this.state.hero){
+        icon = this.state.heros[k].icon;
+      }
+    }
+    console.log(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${icon}/${this.state.artifact}/${artifactIcon}/${this.state.health}/${this.state.speed}`);
+    fetch(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${encodeURIComponent(icon)}/${this.state.artifact}/${encodeURIComponent(artifactIcon)}/${this.state.health}/${this.state.speed}`, {method:"POST"})
     .then(res =>{
       this.props.reFetch();
       this.props.setUpdateFormOff();
@@ -61,12 +70,12 @@ class UpdateForm extends React.Component {
 
   handleHeroChange(e){
     this.setState({
-      heroAndIcon: e.target.value
+      hero: e.target.value
     })
   }
   handleArtifactChange(e){
     this.setState({
-      artifactAndIcon: e.target.value
+      artifact: e.target.value
     })
   }
   handleHealthChange(e){
