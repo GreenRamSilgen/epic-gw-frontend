@@ -35,7 +35,7 @@
     
     display: grid;
 
-    grid-template-columns: repeat(4,1fr); /*!CHANGE BASED ON DATA*/
+    grid-template-columns: repeat(5,1fr); /*!CHANGE BASED ON DATA*/
 }
 
 

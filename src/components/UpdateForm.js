@@ -13,6 +13,8 @@ class UpdateForm extends React.Component {
       artifact: "NA",
       health: "NA",
       speed: "NA",
+      tags: [],
+      currentTag: "",
     }
     
     fetch(`${process.env.PUBLIC_URL}/artifactLists.json`)
@@ -39,14 +41,15 @@ class UpdateForm extends React.Component {
     this.handleArtifactChange = this.handleArtifactChange.bind(this);
     this.handleHealthChange = this.handleHealthChange.bind(this);
     this.handleSpeedChange = this.handleSpeedChange.bind(this);
+    this.handleCurrentTagChange = this.handleCurrentTagChange.bind(this);
+    this.addTags = this.addTags.bind(this);
 
     this.submitForm = this.submitForm.bind(this);
   }
 
   submitForm(e){
     e.preventDefault();
-    
-    console.log(this.state.artifacts.length);
+
     let icon, artifactIcon;
     for(let i = 0 ; i < this.state.artifacts.length; i++){
       if(this.state.artifacts[i].name === this.state.artifact){
@@ -59,8 +62,8 @@ class UpdateForm extends React.Component {
         icon = this.state.heros[k].icon;
       }
     }
-    console.log(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${icon}/${this.state.artifact}/${artifactIcon}/${this.state.health}/${this.state.speed}`);
-    fetch(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${encodeURIComponent(icon)}/${this.state.artifact}/${encodeURIComponent(artifactIcon)}/${this.state.health}/${this.state.speed}`, {method:"POST"})
+    console.log(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${icon}/${this.state.artifact}/${artifactIcon}/${this.state.health}/${this.state.speed}/${this.state.tags}`);
+    fetch(`https://morning-earth-08207.herokuapp.com/${this.props.heroObjId}/${this.state.hero}/${encodeURIComponent(icon)}/${this.state.artifact}/${encodeURIComponent(artifactIcon)}/${this.state.health}/${this.state.speed}/${this.state.tags}`, {method:"POST"})
     .then(res =>{
       this.props.reFetch();
       this.props.setUpdateFormOff();
@@ -89,6 +92,31 @@ class UpdateForm extends React.Component {
       speed: e.target.value
     })
   }
+  handleCurrentTagChange(e){
+    console.log(e.target.value);
+    this.setState({
+      currentTag: e.target.value
+    })
+  }
+
+  addTags(event){
+    
+    this.setState({
+      tags: [...this.state.tags,this.state.currentTag],
+      currentTag: "",
+    })
+    // if (event.key === "Enter" && event.target.value !== "") {
+    //     this.setState({tags:[...this.state.tags, event.target.value]});
+    //     event.target.value = "";
+    // }
+  }
+
+  removeTags(index){
+    this.setState({
+      tags: [...this.state.tags.filter(tag => this.state.tags.indexOf(tag) !== index)]
+    })
+  }
+
 
   render() {
     return (
@@ -101,7 +129,7 @@ class UpdateForm extends React.Component {
         <i className="fas fa-times" onClick={this.props.setUpdateFormOff}></i>
         
         </div>
-          <form onSubmit={this.submitForm}>
+          <form onSubmit={(e)=> e.preventDefault()}>
           {/* HERO */}
           <div className="form-group">
               <label htmlFor="heroStat">Hero</label>
@@ -195,8 +223,30 @@ class UpdateForm extends React.Component {
                 <option value="270-xxx">270-xxx</option>
                 </datalist>
             </div>
-            
-            <button type="submit" className="btn btn-primary" >Update!</button>
+            <div className="tags-input">
+            <ul id="tags">
+                {this.state.tags.map((tag, index) => (
+                    <li key={index} className="tag">
+                        <span className="tag-title">{tag}</span>
+                        <i className="material-icons tag-close-icon"
+                        onClick={() => this.removeTags(index)}
+                        >
+                        x</i>
+                    </li>
+                ))}
+            </ul>
+            <form onSubmit={(e) => e.preventDefault()}>
+            <input
+            className="tagInput"
+                type="text"
+                onChange={this.handleCurrentTagChange}
+                placeholder="Enter Tags Here..."
+                value={this.state.currentTag}
+            ></input>
+            <button className="btn btn-secondary" onClick={this.addTags}>Add Tag</button>
+            </form>
+            </div>
+            <button type="submit" onClick={this.submitForm} className="btn btn-success" >Update!</button>
 
           </form>
         </div>

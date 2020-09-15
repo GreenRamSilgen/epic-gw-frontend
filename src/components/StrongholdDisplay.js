@@ -5,7 +5,7 @@ import { CharDisplay } from "./CharDisplay";
 import { UpdateForm } from "./UpdateForm";
 import "./TeamDisplay.css";
 
-class TeamDisplay extends React.Component {
+class StrongholdDisplay extends React.Component {
   constructor(props){
     super(props);
     
@@ -37,7 +37,7 @@ class TeamDisplay extends React.Component {
   }
 
   async componentDidMount(){
-    const url = `https://morning-earth-08207.herokuapp.com/${this.props.match.params.name}/${this.props.match.params.towerNum}`;
+    const url = `https://morning-earth-08207.herokuapp.com/stronghold/tower1`;
     //`/${this.props.match.params.name}/${this.props.match.params.towerNum}`
     const response = await fetch(url);
     const data = await response.json();
@@ -46,13 +46,6 @@ class TeamDisplay extends React.Component {
       loading: false,
       heroDatas: data
     })
-    //.then(res=> res.text())
-    //.then(finalResponse =>{
-     // console.log(finalResponse);
-    //})
-    //.catch(e => {
-     // console.log(e);
-    //});
   }
 
   async reFetch(){
@@ -106,33 +99,9 @@ class TeamDisplay extends React.Component {
             <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[1] : null } setUpdateFormOn={this.setUpdateFormOn}/>
             <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[2] : null } setUpdateFormOn={this.setUpdateFormOn}/>
           </div>
-
-          <div className="team-name-options">
-            <div className="teamNum">
-              <h2>TEAM 2</h2>
-            </div>
-          </div>
-          <div className="team-content">
-            <div className="charInfo-containerHead">
-              <div className="charLeftHead">
-                <div className="charName">HERO</div>
-              </div>
-              <div className="charRightHead">
-                <div className="statsHead">
-                  <div>Attack:</div>
-                  <div>Crit:</div>
-                  <div>Speed:</div>
-                  <div>Tags:</div>
-                </div>
-              </div>
-            </div>
-            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[3] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[4] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-            <CharDisplay updateHeroId={this.updateHeroId} heroData={(this.state.heroDatas !== null) ? this.state.heroDatas[5] : null } setUpdateFormOn={this.setUpdateFormOn}/>
-          </div>
         </div>
       </div>
     );
   }
 }
-export { TeamDisplay };
+export { StrongholdDisplay};

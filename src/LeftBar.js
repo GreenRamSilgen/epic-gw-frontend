@@ -54,7 +54,7 @@ class LeftBar extends React.Component {
         >
           <div className="sideModal">
             <div className="sideModal__content">
-                <Link to="/strongHoldDisplay"><div className="sideModal__contentItem">STRONGHOLD</div></Link>
+                <Link to="/stronghold/tower1"><div className="sideModal__contentItem">STRONGHOLD</div></Link>
                 <Link to="/leftTowerDisplay"><div className="sideModal__contentItem">LEFT TOWER</div></Link>
                 <Link to="/midTowerDisplay"><div className="sideModal__contentItem">MID TOWER</div></Link>
                 <Link to="/rightTowerDisplay"><div className="sideModal__contentItem">RIGHT TOWER</div></Link>

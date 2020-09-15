@@ -9,10 +9,21 @@ class CharDisplay extends React.Component{
     this.updateClicked = this.updateClicked.bind(this);
   }
   updateClicked(){
+    console.log(this.props.heroData.tags);
     this.props.setUpdateFormOn();
     this.props.updateHeroId(this.props.heroData._id);
   }
     render(){
+      //!TAG READING AND SPLITTING
+      if(this.props.heroData=== undefined) return;
+      console.log(this.props.heroData);
+      let splitTags = [];
+      if(this.props.heroData !== null){
+        console.log(this.props.heroData.tags);
+        if(this.props.heroData.tags.length !== 0){
+        splitTags = this.props.heroData.tags[0].split(',');
+        }
+      }
         return(
             
           <div className="charInfo-container">
@@ -49,9 +60,19 @@ class CharDisplay extends React.Component{
               </div>
               <div className="flexCenter">{(this.props.heroData === null)? "NA" : this.props.heroData.health}</div>
               <div className="flexCenter">{(this.props.heroData === null)? "NA" : this.props.heroData.speed}</div>
+              <div className="tagDiv">
+              {(this.props.heroData === null)? "NA" :
+              <ul id="tags">
+                {splitTags.map((tag, index) => (
+                    <li key={index} className="tag">
+                        <span className="tag-title">{tag}</span>
+                    </li>
+                ))}
+            </ul>}
+            </div>
               
             <div className="flexCenter">
-              <button className="btn btn-success" onClick={this.updateClicked}>Update</button>
+              <button className="btn btn-info" onClick={this.updateClicked}>Update</button>
             </div>
             </div>
           </div>
