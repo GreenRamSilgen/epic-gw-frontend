@@ -9,12 +9,13 @@
 }
 
 .modal__popup{
-    height: fit-content;
+    overflow-y: scroll;
+    height: 90%;
     width: fit-content;
     background-color: white;
     border-radius: 5px;
 
-    margin-top: 2em;
+    
     padding: 1em;
 
     box-shadow: 0 0 17px rgb(50,50,50);
