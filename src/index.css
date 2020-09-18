@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: rgb(46, 46, 46);
+  height: 100%;
+  background:url('https://preview.redd.it/zzw4j5spu9g41.png?width=1920&format=png&auto=webp&s=33fb66fb6b8951cdd4a3741316def335c097f343');
+  background-size: cover;
 }
 
 code {

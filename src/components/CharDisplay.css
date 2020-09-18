@@ -1,13 +1,23 @@
 
 .charInfo-container{
     background: tan;
-    height: 3em;
+    height: auto;
 
     display: grid;
 
     grid-template-columns: 1fr 4fr;
     align-items: center;
 }
+.charInfo-container:nth-child(even){
+    background: rgb(255, 215, 163);
+    height: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
 .charLeft{
     flex-grow: 1;
     width: 100%;

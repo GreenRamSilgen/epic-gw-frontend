@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {Home} from './components/Home';
 import {LeftBar} from './LeftBar';
 import {TowerDisplay} from './components/TowerDisplay';
 import {StrongholdDisplay} from './components/StrongholdDisplay';
@@ -13,6 +14,7 @@ function App() {
     <Router>
     <div className="App">
     <LeftBar/>
+    <Home/>
     <Switch>
     <Route path="/stronghold/tower1" component={StrongholdDisplay}/>
     <Route path="/:name/:towerNum" component={TeamDisplay}/>

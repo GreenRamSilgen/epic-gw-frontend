@@ -1,3 +1,6 @@
+body{
+    background: rgb(46, 46, 46);
+}
 .team-name-options{
     display: flex;
     justify-content: space-around;
