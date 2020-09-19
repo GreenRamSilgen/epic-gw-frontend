@@ -1,4 +1,5 @@
 import React from "react";
+import { CSSTransition } from "react-transition-group";
 import "./LeftBar.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
@@ -37,31 +38,43 @@ class LeftBar extends React.Component {
           <div onClick={this.leftBarAnim} className="sideModalBtn">
             <i className="fas fa-bars fa-2x"></i>
           </div>
-          <div className="headTitle">
-            SITUATION ROOM
-          </div>
+          <div className="headTitle">SITUATION ROOM</div>
           <div></div>
         </nav>
 
-        <div
-          onClick={this.leftBarAnim}
-          className={
-            this.state.barClicked
-              ? "sideModalBack slideOutAnim"
-              : "sideModalBack"
-          }
-          style={this.state.barClicked ? this.barStyle : this.removeBarStyle}
+        <CSSTransition
+          in={this.state.barClicked}
+          unmountOnExit
+          timeout={500}
+          classNames="sideBar__Primary"
         >
-          <div className="sideModal">
-            <div className="sideModal__content">
-                <Link to="/stronghold/tower1"><div className="sideModal__contentItem">STRONGHOLD</div></Link>
-                <Link to="/leftTowerDisplay"><div className="sideModal__contentItem">LEFT TOWER</div></Link>
-                <Link to="/midTowerDisplay"><div className="sideModal__contentItem">MID TOWER</div></Link>
-                <Link to="/rightTowerDisplay"><div className="sideModal__contentItem">RIGHT TOWER</div></Link>
-              
+          <div
+            onClick={this.leftBarAnim}
+            className={
+              this.state.barClicked
+                ? "sideModalBack slideOutAnim"
+                : "sideModalBack"
+            }
+            style={this.state.barClicked ? this.barStyle : this.removeBarStyle}
+          >
+            <div className="sideModal">
+              <div className="sideModal__content">
+                <Link to="/stronghold/tower1">
+                  <div className="sideModal__contentItem">STRONGHOLD</div>
+                </Link>
+                <Link to="/leftTowerDisplay">
+                  <div className="sideModal__contentItem">LEFT TOWER</div>
+                </Link>
+                <Link to="/midTowerDisplay">
+                  <div className="sideModal__contentItem">MID TOWER</div>
+                </Link>
+                <Link to="/rightTowerDisplay">
+                  <div className="sideModal__contentItem">RIGHT TOWER</div>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </CSSTransition>
       </div>
     );
   }

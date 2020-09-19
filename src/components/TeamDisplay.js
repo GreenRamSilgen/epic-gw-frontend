@@ -120,7 +120,7 @@ class TeamDisplay extends React.Component {
               <div className="charRightHead">
                 <div className="statsHead">
                   <div>Attack:</div>
-                  <div>Crit:</div>
+                  <div>Health:</div>
                   <div>Speed:</div>
                   <div>Tags:</div>
                 </div>

@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    height: 5vh;
+    height: 3em;
     color: white;
     background-color: rgb(10, 10, 10);
     display: flex;
@@ -52,9 +52,8 @@ a{
     transform: translateX(-150px);
     transition: transform 500ms linear;
 }
-.sideModal__contentItem{
-    color: white;
-}
+
+
 .sideModal__contentItem:active{
     color: white;
 }
@@ -68,4 +67,35 @@ a{
     
     font-size: medium;
 
+}
+
+.sideModal__content{
+    width: inherit;
+}
+.sideModal__contentItem{
+    color: white;
+    transition: all 200ms;
+}
+.sideModal__contentItem:hover{
+    background-color: rgb(67,67,67);
+}
+
+.sideBar__Primary-enter{
+    position: absolute;
+    transform: translateX(-110%);
+}
+
+.sideBar__Primary-enter-active{
+    transform: translateX(0%);
+    transition: all 300ms ease;
+}
+
+.sideBar__Primary-exit{
+    position: absolute;
+    transform: translateX(0%);
+}
+
+.sideBar__Primary-exit-active{
+    transform: translateX(-110%);
+    transition: all 300ms ease;
 }
