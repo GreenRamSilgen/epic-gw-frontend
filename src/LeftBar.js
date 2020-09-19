@@ -38,8 +38,8 @@ class LeftBar extends React.Component {
           <div onClick={this.leftBarAnim} className="sideModalBtn">
             <i className="fas fa-bars fa-2x"></i>
           </div>
-          <div className="headTitle">SITUATION ROOM</div>
-          <div></div>
+          <div className="headTitle">THE SITUATION ROOM</div>
+          <div>E7GW </div>
         </nav>
 
         <CSSTransition

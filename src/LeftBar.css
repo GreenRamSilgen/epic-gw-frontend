@@ -87,7 +87,7 @@ a{
 
 .sideBar__Primary-enter-active{
     transform: translateX(0%);
-    transition: all 300ms ease;
+    transition: all 200ms ease;
 }
 
 .sideBar__Primary-exit{
@@ -97,5 +97,5 @@ a{
 
 .sideBar__Primary-exit-active{
     transform: translateX(-110%);
-    transition: all 300ms ease;
+    transition: all 200ms ease;
 }

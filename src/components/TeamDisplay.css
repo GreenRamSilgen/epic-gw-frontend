@@ -5,7 +5,13 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: whitesmoke;
+    margin-top: 1em;
+}
+.teamNum{
+    background: black;
+    padding: 0px 1em;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
 }
 /*? TABLE HEADER CSS */
 .charInfo-containerHead{
@@ -36,3 +42,7 @@ body{
     grid-template-columns: repeat(5,1fr); /*!CHANGE BASED ON DATA*/
 }
 
+
+.loadingSign{
+    color: red;
+}

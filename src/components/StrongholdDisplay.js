@@ -71,7 +71,7 @@ class StrongholdDisplay extends React.Component {
       <div>
         {(this.state.showUpdateForm) ? <UpdateForm reFetch={this.reFetch} heroObjId={this.state.heroId} setUpdateFormOff={this.setUpdateFormOff}/> : null}
         {this.state.loading || !this.state.heroDatas ? (
-          <div> loading...</div>
+          <div className="loadingSign"> <h3>Loading...</h3></div>
         ) :  (
         <div> {null}</div>
         )}
